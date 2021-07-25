@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="regression">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com"></parameter>
+		<parameter name="password" value="abc123"></parameter>
+		
+		<parameter name="fullName" value= "Selenium"/>
+		<parameter name="companyName" value= "Techfios" />
+		<parameter name= "emailAddress" value= "abc@gmail.com"/>
+		<parameter name= "phoneNumber" value= "1234567"/>
+		<parameter name= "address" value="Techfioss"/>
+		<parameter name= "cityAddress" value= "Rhode"/>
+		<parameter name= "country" value ="United Kingdom"/>
+		<parameter name= "state" value ="Manchester"/>
+		<parameter name="zipCode" value="34562"/>
+		
+		
+		<classes>
+
+			<class name="test.LoginTest" /> <!-- to inject data to test page -->
+			<class name= "test.AddCustomerTest"/>
+		</classes>
+
+	</test>
+	
+</suite>
